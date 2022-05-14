@@ -3,8 +3,8 @@ function start() {
 Cambia IDCARPETAORIGEN por tu ID
 Cambia NOMBRENUEVACARPETA por el nombre de tu nueva carpeta
 */
-  var sourceFolder = DriveApp.getFolderById('IDCARPETAORIGEN');
-  var targetFolder = "CLONES";
+  var sourceFolder = DriveApp.getFolderById('1Q2jxYD-bovKyghcXQgYh2N9BePORGetK');
+  var targetFolder = "COPIA PACK 80 CURSOS";
 
   var source = DriveApp.getFoldersByName(sourceFolder);
   var target = DriveApp.createFolder(targetFolder);
